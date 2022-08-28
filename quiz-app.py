@@ -19,8 +19,8 @@ score = 0
 name = input('Please, what is name?  ')
 print("Welcome", name, " to our Quiz App !" )
 
-#print("Let's Go !...")
-#print("=========================================================================")
+print("Let's Go !...")
+print("=========================================================================")
 
 #first question
 guess = input('Python is programming language. True or False? ')
