@@ -22,12 +22,15 @@ score = 0
 #print("Let's Go !...")
 #print("=========================================================================")
 
+#first question
 guess = input('Python is programming language. True or False? ')
 check_guess(guess, 'True')
 
+#second question
 guess = input('GitHub is command line. True or False?')
 check_guess(guess, 'False')
 
+#third question
 guess = input('"cd" a is Linux command. True or False?')
 check_guess(guess, 'True')
 
