@@ -16,8 +16,8 @@ def check_guess(guess, answer):
        
 score = 0
 
-#name = input('Please, what is name?  ')
-#print("Welcome", name, " to our Quiz App !" )
+name = input('Please, what is name?  ')
+print("Welcome", name, " to our Quiz App !" )
 
 #print("Let's Go !...")
 #print("=========================================================================")
@@ -27,12 +27,16 @@ guess = input('Python is programming language. True or False? ')
 check_guess(guess, 'True')
 
 #second question
-guess = input('GitHub is command line. True or False?')
+guess = input('GitHub is a command line. True or False?')
 check_guess(guess, 'False')
 
 #third question
-guess = input('"cd" a is Linux command. True or False?')
+guess = input('"cd"is a Linux command. True or False?')
 check_guess(guess, 'True')
+
+#forth question
+guess = input('Linux is a game True or False?')
+check_guess(guess, 'False')
 
 
 print('Your score is ' + str(score))
